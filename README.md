@@ -1,1 +1,1 @@
-https://liviuagache.github.io/misterwolf/
+https://liviuagache.github.io/misterwolf.ro/

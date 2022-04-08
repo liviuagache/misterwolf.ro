@@ -1,0 +1,25 @@
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-family: Montserrat, arial, sans-serif;
+}
+.navbar {
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    display: block;
+}
+.navbarGrid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbarLinks {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}

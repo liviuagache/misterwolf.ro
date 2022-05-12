@@ -1,8 +1,8 @@
 /*CACHED*//******************************************************************************************************
- *            DYNAMIC STYLE FOR style-7fe2460c-sffmv1rr version 1.0
+ *            DYNAMIC STYLE FOR style-61829-q7mtpeha version 1.0
  *                                 	 
  ******************************************************************************************************/
-	 .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr  .preview-content-holder  {
+	 .style-61829-c7j6nuaw .style-61829-q7mtpeha  .preview-content-holder  {
 		
 						text-align: left;
 						
@@ -19,17 +19,17 @@
 						background-color: rgba(255, 255, 255, 0);
 							
 		}
-	 .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .item-content:not(.blocks_layout)  {
+	 .style-61829-c7j6nuaw .style-61829-q7mtpeha .item-content:not(.blocks_layout)  {
 		
 						background-color: rgba(0, 0, 0, 0);
 							
 		}
-	 .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .preview-divider  {
+	 .style-61829-c7j6nuaw .style-61829-q7mtpeha .preview-divider  {
 		
 						border-color: rgb(255, 255, 255);
 							
 		}
-	 .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .inner-pic  {
+	 .style-61829-c7j6nuaw .style-61829-q7mtpeha .inner-pic  {
 		
 						opacity: 0.63;
 						
@@ -37,36 +37,36 @@
 						
 		    			-webkit-filter: grayscale(100%) brightness(0.6);	
 		}
-	 .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .preview-subtitle-holder  {
+	 .style-61829-c7j6nuaw .style-61829-q7mtpeha .preview-subtitle-holder  {
 		
 						max-width: 1050px;
 							
 		}
-	 .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .multi_layout .helper-div.middle-center .pic-side  {
+	 .style-61829-c7j6nuaw .style-61829-q7mtpeha .multi_layout .helper-div.middle-center .pic-side  {
 		
 						margin-left: -6%;
 							
 		}
-	 .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .multi_layout .helper-div.middle-center  {
+	 .style-61829-c7j6nuaw .style-61829-q7mtpeha .multi_layout .helper-div.middle-center  {
 		
 						padding-left: 6%;
 						
-						padding-right: 6%;
-						
 						width: 88%;
+						
+						padding-right: 6%;
 							
 		}
-	 .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .background-div  {
+	 .style-61829-c7j6nuaw .style-61829-q7mtpeha .background-div  {
 			
 		}
-	 .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr.master.item-box   {
+	 .style-61829-c7j6nuaw .style-61829-q7mtpeha.master.item-box   {
 		
 						background-color: rgb(239, 239, 239);
 							
 		}
-	 .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .preview-title  ,  .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .preview-body h1  { 
-						line-height: 1.0em;
-						font-size:calc( 10px + ( 22rem - 10rem ) );
+	 .style-61829-c7j6nuaw .style-61829-q7mtpeha .preview-title  ,  .style-61829-c7j6nuaw .style-61829-q7mtpeha .preview-body h1  { 
+						font-family: Montserrat;
+						font-size:calc( 10px + ( 27rem - 10rem ) );
 						text-transform: uppercase;
 						
 						color: rgb(255, 255, 255);
@@ -77,17 +77,17 @@
 						
 						margin-bottom: 10px;
 						
-						font-family: Montserrat;
+						line-height: 1.0em;
 						
 						background-color: rgba(255, 255, 255, 0);
 							
 		}
-	 .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .preview-item-links span  ,  .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr #sr-basket-widget *  { 
-						border-width: 0px;
-						font-size:calc( 10px + ( 12rem - 10rem ) );
+	 .style-61829-c7j6nuaw .style-61829-q7mtpeha .preview-item-links span  ,  .style-61829-c7j6nuaw .style-61829-q7mtpeha #sr-basket-widget *  { 
+						font-family: Montserrat;
+						font-size:calc( 10px + ( 17rem - 10rem ) );
 						text-transform: uppercase;
 						
-						color: rgb(255, 255, 255);
+						color: rgb(0, 0, 0);
 						
 						padding-bottom: 10px;
 						
@@ -107,56 +107,56 @@
 						
 						margin-bottom: 10px;
 						
-						font-family: Montserrat;
+						border-width: 0px;
 						
-						background-color: rgb(78, 112, 71);
+						background-color: rgb(102, 168, 141);
 							
 		}
-	 .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .preview-element.icon-source  {
+	 .style-61829-c7j6nuaw .style-61829-q7mtpeha .preview-element.icon-source  {
 		
 						width: 160px;
 							
 		}
-	 .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .background-image-div  {
+	 .style-61829-c7j6nuaw .style-61829-q7mtpeha .background-image-div  {
 		
 						color: rgb(255, 255, 255);
 							
 		}
-	 .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .preview-icon-holder  {
+	 .style-61829-c7j6nuaw .style-61829-q7mtpeha .preview-icon-holder  {
 		
 						margin-bottom: 40px;
 							
 		}
-	 .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .preview-body-holder  {
+	 .style-61829-c7j6nuaw .style-61829-q7mtpeha .preview-body-holder  {
 		
 						max-width: 600px;
 							
 		}
-	 .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr  .preview-content-wrapper  {
+	 .style-61829-c7j6nuaw .style-61829-q7mtpeha  .preview-content-wrapper  {
 		
 						text-align: left;
 						
 						vertical-align: middle;
 							
 		}
-	 .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .preview-item-links span:hover  ,  .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .preview-element.Link.hover-tester  { 
+	 .style-61829-c7j6nuaw .style-61829-q7mtpeha .preview-item-links span:hover  ,  .style-61829-c7j6nuaw .style-61829-q7mtpeha .preview-element.Link.hover-tester  { 
 						color: rgb(255, 255, 255);
 						
-						background-color: rgb(48, 48, 48);
+						background-color: rgb(17, 96, 63);
 							
 		}
-	 .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .inner-pic-holder  {
+	 .style-61829-c7j6nuaw .style-61829-q7mtpeha .inner-pic-holder  {
 		
 						background-color: rgb(41, 43, 46);
 							
 		}
-	 .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .preview-item-links span:before  ,  .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .effect-tester  { 
+	 .style-61829-c7j6nuaw .style-61829-q7mtpeha .preview-item-links span:before  ,  .style-61829-c7j6nuaw .style-61829-q7mtpeha .effect-tester  { 
 						background-color: rgb(52, 68, 64);
 							
 		}
-	 .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .preview-body  {
+	 .style-61829-c7j6nuaw .style-61829-q7mtpeha .preview-body  {
 		
-						line-height: 1.5em;
+						font-family: Arial;
 						font-size:calc( 10px + ( 12rem - 10rem ) );
 						color: rgb(128, 128, 128);
 						
@@ -166,20 +166,20 @@
 						
 						margin-bottom: 10px;
 						
-						font-family: Arial;
+						line-height: 1.5em;
 							
 		}
 	
-	 .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .middle_layout .helper-div  ,  .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .multi_layout .helper-div.middle-center .text-side  { 
+	 .style-61829-c7j6nuaw .style-61829-q7mtpeha .middle_layout .helper-div  ,  .style-61829-c7j6nuaw .style-61829-q7mtpeha .multi_layout .helper-div.middle-center .text-side  { 
 						max-width: 1000px;
 							
 		}
-	 .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .preview-subtitle  ,  .style-fabf7049-1gqaxm7u .style-7fe2460c-sffmv1rr .preview-body h2  { 
-						font-family: Montserrat;
-						font-size:calc( 10px + ( 14rem - 10rem ) );
+	 .style-61829-c7j6nuaw .style-61829-q7mtpeha .preview-subtitle  ,  .style-61829-c7j6nuaw .style-61829-q7mtpeha .preview-body h2  { 
+						line-height: 1.2em;
+						font-size:calc( 10px + ( 19rem - 10rem ) );
 						text-transform: uppercase;
 						
-						color: rgb(78, 112, 71);
+						color: rgb(102, 168, 141);
 						
 						letter-spacing: 0.05em;
 						
@@ -191,7 +191,7 @@
 						
 						margin-bottom: 10px;
 						
-						line-height: 1.2em;
+						font-family: Montserrat;
 							
 		}
 
@@ -199,18 +199,18 @@
  *            UNIQUE STYLE
  *                                 	 
  ******************************************************************************************************/
- .style-7fe2460c-sffmv1rr #vbid-7fe2460c-n3jb8vrb .preview-content-holder{
+ .style-61829-q7mtpeha #vbid-61829-j7nkvjpt .preview-content-holder{
 				
 							text-align : center;
 					
 				}
 
 
- .style-7fe2460c-sffmv1rr #vbid-7fe2460c-xtcl3qqr.inner-pic{
+ .style-61829-q7mtpeha #vbid-61829-rcoy97c1.inner-pic{
 				
 							background-position : 34.7607% 0%;
 					
-				} .style-7fe2460c-sffmv1rr #vbid-7fe2460c-el17h9ky.inner-pic{
+				} .style-61829-q7mtpeha #vbid-61829-xaotzeu1.inner-pic{
 				
 							background-position : 50% 50%;
 					
@@ -226,7 +226,7 @@
 
 
 
- .style-7fe2460c-sffmv1rr #vbid-7fe2460c-n3jb8vrb .preview-content-wrapper{
+ .style-61829-q7mtpeha #vbid-61829-j7nkvjpt .preview-content-wrapper{
 				
 							text-align : center;
 					

@@ -1,8 +1,8 @@
 /*CACHED*//******************************************************************************************************
- *            DYNAMIC STYLE FOR style-fabf7049-1gqaxm7u version 1.0
+ *            DYNAMIC STYLE FOR style-61829-c7j6nuaw version 1.0
  *                                 	 
  ******************************************************************************************************/
-	 .master .style-fabf7049-1gqaxm7u .Body  {
+	 .style-61829-uglorqp4 .style-61829-c7j6nuaw .Body  {
 		font-size:calc( 10px + ( 12rem - 10rem ) );
 						max-width: 650px;
 						
@@ -15,7 +15,7 @@
 						line-height: 1.4em;
 							
 		}
-	 .master .style-fabf7049-1gqaxm7u .Subtitle  ,  .master .style-fabf7049-1gqaxm7u .Body h2  { font-size:calc( 10px + ( 15rem - 10rem ) );
+	 .style-61829-uglorqp4 .style-61829-c7j6nuaw .Subtitle  ,  .style-61829-uglorqp4 .style-61829-c7j6nuaw .Body h2  { font-size:calc( 10px + ( 15rem - 10rem ) );
 						color: rgb(110, 110, 110);
 						
 						max-width: 650px;
@@ -33,14 +33,19 @@
 						font-family: Arial;
 							
 		}
-	 .master .style-fabf7049-1gqaxm7u .quote-holder  {
+	 .style-61829-uglorqp4 .style-61829-c7j6nuaw .quote-holder  {
 		
 						margin-bottom: 45px;
 						
 						margin-top: 35px;
 							
 		}
-	 .master .style-fabf7049-1gqaxm7u .Title  ,  .master .style-fabf7049-1gqaxm7u .Body h1  { font-size:calc( 10px + ( 22rem - 10rem ) );
+	 .style-61829-uglorqp4 .style-61829-c7j6nuaw .subtitle-wrapper  {
+		
+						max-width: 1180px;
+							
+		}
+	 .style-61829-uglorqp4 .style-61829-c7j6nuaw .Title  ,  .style-61829-uglorqp4 .style-61829-c7j6nuaw .Body h1  { font-size:calc( 10px + ( 22rem - 10rem ) );
 						color: rgb(0, 0, 0);
 						
 						max-width: 650px;
@@ -56,12 +61,12 @@
 						font-family: Montserrat;
 							
 		}
-	 .master .style-fabf7049-1gqaxm7u .link-wrapper  {
+	 .style-61829-uglorqp4 .style-61829-c7j6nuaw .link-wrapper  {
 		
 						max-width: 1058px;
 							
 		}
-	 .master .style-fabf7049-1gqaxm7u .Quote  {
+	 .style-61829-uglorqp4 .style-61829-c7j6nuaw .Quote  {
 		
 						margin-right: 50px;
 						
@@ -72,8 +77,7 @@
 						font-style: italic;
 							
 		}
-	
-	 .master .style-fabf7049-1gqaxm7u .quote-author  {
+	 .style-61829-uglorqp4 .style-61829-c7j6nuaw .quote-author  {
 		
 						font-style: italic;
 						font-size:calc( 10px + ( 19rem - 10rem ) );
@@ -88,14 +92,14 @@
 						font-family: 'Times New Roman';
 							
 		}
-	 .master .style-fabf7049-1gqaxm7u .title-wrapper  {
+	 .style-61829-uglorqp4 .style-61829-c7j6nuaw .title-wrapper  {
 		
 						max-width: 1180px;
 							
 		}
-	 .master .style-fabf7049-1gqaxm7u .item-links span  {
+	 .style-61829-uglorqp4 .style-61829-c7j6nuaw .item-links span  {
 		
-						border-width: 1px;
+						font-family: Arial;
 						font-size:calc( 10px + ( 13rem - 10rem ) );
 						color: rgb(0, 0, 0);
 						
@@ -113,24 +117,20 @@
 						
 						margin-bottom: 20px;
 						
-						font-family: Arial;
+						border-width: 1px;
 						
 						background-color: rgba(66, 117, 83, 0);
 						
 						margin-left: 50px;
 							
 		}
-	 .master .style-fabf7049-1gqaxm7u .subtitle-wrapper  {
-		
-						max-width: 1180px;
-							
-		}
-	 .master .style-fabf7049-1gqaxm7u .body-wrapper  {
+	
+	 .style-61829-uglorqp4 .style-61829-c7j6nuaw .body-wrapper  {
 		
 						max-width: 1032px;
 							
 		}
-	 .style-fabf7049-1gqaxm7u.master.container > #children  {
+	 .style-61829-c7j6nuaw.master.container > #children  {
 		
 						background-color: rgb(237, 237, 237);
 							
@@ -173,9 +173,9 @@
 	
 			.master.container.website-style .master.item-box:not(.custom) .preview-title:not(.custom) , 
 			.master.container.website-style .master.item-box:not(.custom) .blocks-preview-title:not(.custom) { 
-						letter-spacing: -0.05em;
-				
 						font-family: Montserrat;
+				
+						letter-spacing: -0.05em;
 				
 						direction: ltr;
 				
@@ -189,11 +189,13 @@
 		
 						font-family: Montserrat;
 				
-						letter-spacing: 0.0em;
+						letter-spacing: 0.05em;
 				
-						border-width: 1px;
+						border-width: 2px;
 				
 						border-radius: 0px;
+				
+						line-height: 1.1em;
 					
 		}
 	

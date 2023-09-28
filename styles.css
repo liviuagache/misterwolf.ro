@@ -1,0 +1,387 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--primary-color) !important;
+    margin: 0rem;
+    overflow-x: hidden !important;
+    font-family: "Montserrat", sans-serif !important;
+    user-select: none;
+}
+
+:root {
+    --primary-color: #344440;
+    --secondary-color: #738e75;
+    --tertiary-color: #bdc090;
+    --quaternary-color: #eff2e6;
+    --accent-color: #c9726a;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100vw;
+    padding: 0;
+    color: var(--primary-color);
+}
+.navbar a:hover {
+    color: var(--secondary-color) !important;
+    transition: color 0.5s;
+}
+.navbar-brand,
+.nav-link {
+    color: var(--primary-color) !important;
+}
+.nav-item {
+    position: relative;
+}
+.nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 2px;
+    background-color: var(--accent-color);
+    width: 0%;
+    content: "";
+    height: 1px;
+    transition: all 0.5s;
+}
+.nav-item:hover::after {
+    width: 100%;
+}
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+#booking-link:hover {
+    background-color: var(--primary-color) !important;
+    color: var(--tertiary-color) !important;
+}
+/* NAVBAR END */
+
+/* BANNER */
+#banner .row {
+    max-width: 600px;
+}
+#banner h1 {
+    font-size: 2.8rem;
+    font-weight: 300;
+    color: var(--quaternary-color);
+}
+#banner h6 {
+    font-size: 0.6rem;
+    font-weight: 700;
+    margin-top: 0;
+    color: var(--secondary-color);
+}
+#banner p {
+    font-size: 0.78rem;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    color: var(--quaternary-color);
+}
+/* BANNER END */
+
+/* ABOUT */
+.parallax {
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: url(/images/Gallery/DSC08189.JPG);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        max-height: 500px;
+        opacity: .4;
+    }
+}
+.parallax-section h4 {
+    position: relative;
+    max-width: 500px;
+    font-size: 0.97rem;
+    font-weight: 400;
+    color: var(--quaternary-color);
+}
+.parallax-section p {
+    position: relative;
+    color: var(--tertiary-color);
+    font-size: 0.7rem;
+}
+/* ABOUT END */
+
+/* SERVICES */
+#services {
+    color: var(--quaternary-color);
+}
+.row {
+    color: var(--quaternary-color);
+    font-weight: 100;
+}
+.row h2 {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+.row h3 {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--tertiary-color);
+}
+.row hr {
+    color: var(--accent-color);
+}
+/* SERVICES END */
+
+/* BOOKING */
+    #booking {
+        color: var(--quaternary-color);
+    }
+    #booking span {
+        color: var(--quaternary-color);
+        text-decoration: none;
+        font-size: 1.75rem;
+        font-weight: 200;
+    }
+    .zoom-container {
+        overflow: hidden;
+        position: relative;
+    }
+    .zoom-img {
+        transition: transform 0.2s;
+    }
+    .zoom-img:hover {
+        transform: scale(1.2);
+    }
+/* BOOKING END */
+
+/* GALLERY */
+#gallery {
+    color: var(--quaternary-color);
+    padding: 0;
+}
+#gallery img {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-control-next {
+    width: 50% !important;
+}
+.carousel-control-prev {
+    width: 50% !important;
+}
+/* GALLERY END */
+
+/* CONTACT */
+#contact {
+    color: var(--quaternary-color);
+}
+iframe {
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    min-height: 350px;
+}
+#contact h1 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+#contact .address {
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+#contact .phone {
+    text-decoration: none;
+    color: var(--accent-color) !important;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+/* CONTACT END */
+
+/* PRODUCTS */
+#products img {
+    width: 79.98px;
+    height: 79.98px;
+    background-color: #fff;
+}
+/* PRODUCTS END */
+
+/* REVIEWS */
+
+.d-flex h2 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+.d-flex h3 {
+    color: var(--tertiary-color);
+    font-size: .7rem;
+}
+.d-flex hr {
+    color: var(--accent-color);
+}
+#carouselExampleSlidesOnly .carousel-item {
+    color: var(--quaternary-color);
+    height: 240px;
+}
+/* REVIEWS END */
+
+/* SOCIAL */
+
+/* SOCIAL END */
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 360px) {
+    #banner h1 {
+        font-size: 2rem;
+    }
+    #banner p {
+        font-size: 0.75rem;
+        letter-spacing: normal;
+    }
+    .parallax-section h4 {
+        font-size: 0.8rem;
+    }
+    .fa {
+        font-size: 5rem;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    #banner h1 {
+        font-size: 3rem;
+    }
+    #banner h6 {
+        font-size: 0.8rem;
+    }
+    #banner p {
+        font-size: 0.75rem;
+        letter-spacing: normal;
+    }
+    .parallax::before {
+        max-height: 800px !important;
+    }
+    #about-text {
+        padding-left: 2rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #banner h1 {
+        font-size: 3rem;
+    }
+    #banner h6 {
+        font-size: 0.8rem;
+    }
+    #banner p {
+        font-size: 0.7rem;
+        letter-spacing: normal;
+    }
+    #about-text {
+        padding-left: 5rem;
+    }
+    #booking span {
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #banner h1 {
+        font-size: 3rem;
+    }
+    #banner h6 {
+        font-size: 0.8rem;
+    }
+    #banner p {
+        font-size: 0.8rem;
+        letter-spacing: normal;
+    }
+    #about-text {
+        padding-left: 10rem;
+    }
+    .parallax-section h4 {
+        max-width: 600px;
+    }
+    #booking span {
+        font-size: 2.25rem;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    #banner h1 {
+        font-size: 3rem;
+    }
+    #banner h6 {
+        font-size: 0.8rem;
+    }
+    #banner p {
+        font-size: 0.8rem;
+        letter-spacing: normal;
+    }
+    #about-text {
+        padding-left: 12rem;
+    }
+    .parallax-section h4 {
+        max-width: 800px;
+    }
+    #gallery {
+        padding: 0 100px 0 100px;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    #banner h1 {
+        font-size: 5rem;
+    }
+    #banner h6 {
+        font-size: 1rem;
+    }
+    #banner p {
+        font-size: 1.2rem;
+        letter-spacing: normal;
+    }
+    #about-text {
+        padding-left: 10rem;
+        padding-top: 7rem;
+        padding-bottom: 5rem;
+    }
+    .parallax-section h4 {
+        max-width: 1000px;
+        font-size: 1.4rem;
+    }
+    .parallax-section p {
+        font-size: 1rem;
+    }
+    #booking span {
+        font-size: 3rem;
+    }
+    #contact h1 {
+        font-size: 4rem;
+    }
+    #contact a.address {
+        font-size: 1.5rem;
+    }
+    #contact a.phone {
+        font-size: 2rem;
+    }
+    #services h2 {
+        font-size: 1.75rem;
+    }
+    #services h3 {
+        font-size: 1rem;
+    }
+    #services p {
+        font-size: 1.25rem;
+    }
+    #reviews h2 {
+        font-size: 1.75rem;
+    }
+    #reviews h3 {
+        font-size: 1rem;
+    }
+    #reviews p {
+        font-size: 1.25rem;
+    }
+}

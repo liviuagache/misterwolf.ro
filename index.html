@@ -40,7 +40,7 @@
                         </li>
                         <li class="nav-item">
                             <a href="#booking" id="booking-link"
-                                class="nav-link fw-semibold mx-3 py-1 px-2 bg-success-subtle">Programează-te</a>
+                                class="nav-link fw-semibold mx-3 py-1 px-2 rounded-1 bg-success-subtle">Programează-te</a>
                         </li>
                     </ul>
                 </div>
@@ -53,16 +53,19 @@
 
     <!-- BANNER -->
     <section id="banner">
-        <div class="container text-center">
+        <div class="container-fluid text-center">
             <div class="row justify-content-end mx-auto text-end">
                 <img class="w-25 mt-5 mb-4" src="/images/Logo Negative small.png" alt="Logo">
-                <h1>MISTER WOLF</h1>
-                <h6>FULL SERVICE LUXURY BARBER SHOP</h6>
-                <p>De la tunsori până la bărbierit, tunderea mustății și a bărbii,
+                <h1 class="p-0 m-0">MISTER WOLF</h1>
+                <h6 class="p-0 m-0">FULL SERVICE LUXURY BARBER SHOP</h6>
+                <p class="py-5 px-0">De la tunsori până la bărbierit, tunderea mustății și a bărbii,
                     <br>oferim o vastă gamă de servicii de înaltă calitate
                     <br>care să se potriveasca nevoilor tale.
                 </p>
-
+                <div class="container text-nowrap" id="btnContainer">
+                    <a class="btn border-0 btn-success" href="#booking" role="button" id="btnFixed">Programează-te</a>
+                </div>
+                <div class="my-3"></div>
             </div>
         </div>
     </section>
@@ -72,7 +75,7 @@
 
     <!-- ABOUT -->
     <section id="about">
-        <div class="parallax pt-5 pb-5">
+        <div class="parallax pt-5 pb-5 z-2">
             <div id="about-text" class="container mx-auto parallax-section text-start">
                 <h4 class="mt-5">Salonul nostru s-a născut din dorința de a vă schimba modul în care
                     percepeți o tunsoare, misiunea noastră nefiind doar să creăm un aspect frumos,
@@ -92,10 +95,10 @@
 
     <!-- SERVICES -->
     <section id="services">
-        <div class="container">
-            <div class="container-sm mt-5 text-center display-2">Servicii</div>
-            <div class="container flex-column text-center">
-                <div class="row mb-5 text-start">
+        <div class="container-fluid">
+            <div class="container-sm text-center py-5 display-2">Servicii</div>
+            <div class="container flex-column pb-5 text-center">
+                <div class="row text-start">
                     <div class="col-sm-12 col-md-6 col-lg-4">
                         <hr class="hr">
                         <h2>BASIC CUT</h2>
@@ -141,21 +144,21 @@
 
 
     <!-- BOOKING -->
-    <section id="booking">
-        <div class="container-sm pt-5 text-center display-2">Alege bărbierul</div>
-        <div class="container text-center">
-            <div class="row row-gap-3">
-                <div class="col-md-6 zoom-container">
+    <section class="py-5" id="booking">
+        <div class="container-sm pb-5 text-center display-2">Alege bărbierul</div>
+        <div class="container-fluid text-center">
+            <div class="row g-2 justify-content-evenly">
+                <div class="col-md-5 col-lg-4 p-0 zoom-container">
                     <a href="https://misterwolf.setmore.com" target="_blank"
                         class="d-flex align-items-end justify-content-center">
-                        <img class="w-75 h-100 zoom-img" src="images/andrei.png" style="opacity: .5;" alt="ANDREI">
+                        <img class="w-100 h-100 zoom-img" src="images/andrei.png" style="opacity: .5;" alt="ANDREI">
                         <span class="position-absolute mb-2">ANDREI</span>
                     </a>
                 </div>
-                <div class="col-md-6 zoom-container">
+                <div class="col-md-5 col-lg-4 p-0 zoom-container">
                     <a href="https://liviuagache.setmore.com" target="_blank"
                         class="d-flex align-items-end justify-content-center">
-                        <img class="w-75 zoom-img" src="images/liviu.png" style="opacity: .5;" alt="LIVIU">
+                        <img class="w-100 zoom-img" src="images/liviu.png" style="opacity: .5;" alt="LIVIU">
                         <span class="position-absolute mb-2">LIVIU</span>
                     </a>
                 </div>
@@ -166,7 +169,7 @@
 
 
     <!-- GALLERY -->
-    <section id="gallery">
+    <section class="py-5" id="gallery">
         <div id="carouselExample" class="carousel slide my-5">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -202,17 +205,17 @@
 
 
     <!-- CONTACT -->
-    <section id="contact">
-        <div class="container-fluid contact-container">
-            <div class="row">
-                <div class="col-md-6 px-0">
-                    <iframe class="overflow-hidden"
+    <section class="py-5" id="contact">
+        <div class="container-fluid align-content-center contact-container">
+            <div class="row g-5 justify-content-evenly">
+                <div class="col-md-6">
+                    <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2848.7716553837654!2d26.086452!3d44.437846!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff5c83942bbd%3A0xd11d9697dab89028!2sStrada%20Grigore%20Cob%C4%83lcescu%2014%2C%20Bucure%C8%99ti%2C%20Romania!5e0!3m2!1sen!2sus!4v1695820000452!5m2!1sen!2sus"
                         allowfullscreen="" loading="lazy" scrolling="no" width="100%" height="100%"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="col-md-6 py-5 px-5 align-middle text-start">
-                    <img class="w-25" src="/images/Logo Negative small.png" alt="Logo">
+                <div class="col-md-6 px-5 align-middle text-start">
+                    <img class="w-25 mt-md-4" src="/images/Logo Negative small.png" alt="Logo">
                     <div class="">
                         <h1 class="text-nowrap pt-4">MISTER WOLF</h1>
                         <hr class="hr">
@@ -279,10 +282,10 @@
 
 
     <!-- REVIEWS -->
-    <section id="reviews">
+    <section class="py-5" id="reviews">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner px-md-5 px-lg-5 px-xl-5">
-                <div class="carousel-item active px-5">
+                <div class="carousel-item active px-5 px-md-5 px-lg-5 px-xl-5">
                     <div class="d-flex flex-column px-md-5">
                         <h2>Easy to schedule. Always respecting the appointment time. Professional in regards to
                             attitude and job done.</h2>
@@ -291,7 +294,7 @@
                         <p>Valentin B.</p>
                     </div>
                 </div>
-                <div class="carousel-item px-5">
+                <div class="carousel-item px-5 px-md-5 px-lg-5 px-xl-5">
                     <div class="d-flex flex-column px-md-5">
                         <h2>Very stylish and cosy.</h2>
                         <h3>★★★★★</h3>
@@ -300,7 +303,7 @@
                     </div>
                 </div>
                 <div class="carousel-item px-5">
-                    <div class="d-flex flex-column px-md-5">
+                    <div class="d-flex flex-column px-md-5 px-xl-5">
                         <h2>Best barbershop in town. 100% quality</h2>
                         <h3>★★★★★</h3>
                         <hr class="hr">
@@ -308,7 +311,7 @@
                     </div>
                 </div>
                 <div class="carousel-item px-5">
-                    <div class="d-flex flex-column px-md-5">
+                    <div class="d-flex flex-column px-md-5 px-xl-5">
                         <h2>I highly recommend this place! Scheduling was as easy as it gets and services are definitely
                             high-end.</h2>
                         <h3>★★★★★</h3>
@@ -317,7 +320,7 @@
                     </div>
                 </div>
                 <div class="carousel-item px-5">
-                    <div class="d-flex flex-column px-md-5">
+                    <div class="d-flex flex-column px-md-5 px-xl-5">
                         <h2>Best haircut in Bucharest if not Romania! I drive across town and that is no small task
                             given Bucharest traffic!</h2>
                         <h3>★★★★★</h3>
@@ -337,16 +340,17 @@
     <!-- SOCIAL END -->
 
 
-
-    <nav class="overflow-x-hidden" aria-label="...">
+    <!-- <nav class="overflow-x-hidden" aria-label="...">
         <ul class="pagination pagination-sm justify-content-center py-1 fixed-bottom">
             <li class="page-item"><a class="page-link p-1" href="#">Home</a></li>
             <li class="page-item"><a class="page-link p-1" href="#services">Servicii</a></li>
             <li class="page-item"><a class="page-link p-1" href="#contact">Contact</a></li>
             <li class="page-item"><a class="page-link p-1" href="#booking">Programări</a></li>
         </ul>
-    </nav>
+    </nav> -->
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>

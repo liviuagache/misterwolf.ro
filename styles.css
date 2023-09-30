@@ -14,6 +14,7 @@ body {
     --tertiary-color: #bdc090;
     --quaternary-color: #eff2e6;
     --accent-color: #c9726a;
+    --secondarybg-color: #292b2e;
 }
 
 /* NAVBAR */
@@ -64,21 +65,29 @@ body {
     max-width: 600px;
 }
 #banner h1 {
-    font-size: 2.8rem;
+    font-size: 3rem;
     font-weight: 300;
     color: var(--quaternary-color);
 }
 #banner h6 {
     font-size: 0.6rem;
     font-weight: 700;
-    margin-top: 0;
     color: var(--secondary-color);
 }
 #banner p {
-    font-size: 0.78rem;
+    font-size: 0.75rem;
     font-weight: 400;
     letter-spacing: -0.5px;
-    color: var(--quaternary-color);
+    color: var(--tertiary-color);
+}
+#btnFixed {
+    position: fixed;
+    transform: translate(-13rem, -2.5rem);
+    z-index: 999;
+    background-color: var(--secondary-color);
+}
+#banner a {
+    font-size: 1.5rem;
 }
 /* BANNER END */
 
@@ -93,18 +102,18 @@ body {
         bottom: 0;
         left: 0;
         background-image: url(/images/Gallery/DSC08189.JPG);
-        background-size: cover;
+        background-size: cover !important;
         background-position: center;
         background-attachment: fixed;
         background-repeat: no-repeat;
         max-height: 500px;
-        opacity: .4;
+        opacity: 0.4;
     }
 }
 .parallax-section h4 {
     position: relative;
     max-width: 500px;
-    font-size: 0.97rem;
+    font-size: 0.95rem;
     font-weight: 400;
     color: var(--quaternary-color);
 }
@@ -117,6 +126,7 @@ body {
 
 /* SERVICES */
 #services {
+    background-color: var(--secondarybg-color);
     color: var(--quaternary-color);
 }
 .row {
@@ -138,29 +148,31 @@ body {
 /* SERVICES END */
 
 /* BOOKING */
-    #booking {
-        color: var(--quaternary-color);
-    }
-    #booking span {
-        color: var(--quaternary-color);
-        text-decoration: none;
-        font-size: 1.75rem;
-        font-weight: 200;
-    }
-    .zoom-container {
-        overflow: hidden;
-        position: relative;
-    }
-    .zoom-img {
-        transition: transform 0.2s;
-    }
-    .zoom-img:hover {
-        transform: scale(1.2);
-    }
+#booking {
+    color: var(--quaternary-color);
+}
+#booking span {
+    color: var(--quaternary-color);
+    text-decoration: none;
+    font-size: 1.75rem;
+    font-weight: 200;
+}
+.zoom-container {
+    overflow: hidden;
+    position: relative;
+}
+.zoom-img {
+    transition: all 0.5s;
+}
+.zoom-img:hover {
+    transform: scale(1.1);
+    opacity: 1 !important;
+}
 /* BOOKING END */
 
 /* GALLERY */
 #gallery {
+    background-color: var(--secondarybg-color);
     color: var(--quaternary-color);
     padding: 0;
 }
@@ -221,7 +233,7 @@ iframe {
 }
 .d-flex h3 {
     color: var(--tertiary-color);
-    font-size: .7rem;
+    font-size: 0.7rem;
 }
 .d-flex hr {
     color: var(--accent-color);
@@ -251,6 +263,9 @@ iframe {
     .fa {
         font-size: 5rem;
     }
+    .parallax::before {
+        /* background-attachment: scroll !important; */
+    }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     #banner h1 {
@@ -264,7 +279,7 @@ iframe {
         letter-spacing: normal;
     }
     .parallax::before {
-        max-height: 800px !important;
+        /* background-attachment: scroll !important; */
     }
     #about-text {
         padding-left: 2rem;

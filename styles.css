@@ -263,9 +263,6 @@ iframe {
     .fa {
         font-size: 5rem;
     }
-    .parallax::before {
-        /* background-attachment: scroll !important; */
-    }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     #banner h1 {
@@ -277,9 +274,6 @@ iframe {
     #banner p {
         font-size: 0.75rem;
         letter-spacing: normal;
-    }
-    .parallax::before {
-        /* background-attachment: scroll !important; */
     }
     #about-text {
         padding-left: 2rem;

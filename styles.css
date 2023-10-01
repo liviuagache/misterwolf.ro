@@ -97,7 +97,6 @@ body {
 }
 #btnBottom {
     background-color: var(--secondary-color);
-    position: fixed;
     bottom: 2rem;
     right: 2.2rem;
     z-index: 999;

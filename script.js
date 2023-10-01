@@ -1,13 +1,22 @@
-window.addEventListener("scroll", function() {
-    var button = document.getElementById("btnFixed");
-    var buttonHeight = button.clientHeight;
+var btnTop = document.getElementById("btnTop");
+var btnBottom = document.getElementById("btnBottom");
+var booking = document.getElementById("booking")
 
-    if ((window.pageYOffset) < (buttonHeight * 2)) {
-        button.style.right = "";
-        button.style.bottom = "";
+function isInViewport(element) {
+    var rect = element.getBoundingClientRect();
+    return (rect.top >= 0 && rect.bottom <= window.innerHeight);
+}
+window.addEventListener("scroll", function() {
+    if (isInViewport(btnTop) || isInViewport(booking)) {
+        btnTop.classList.add("visible-btn");
+        btnTop.classList.remove("hidden-btn");
+        btnBottom.classList.add("hidden-btn");
+        btnBottom.classList.remove("visible-btn");
     }
     else {
-        button.style.right = "-12rem";
-        button.style.bottom = "-1rem";
+        btnTop.classList.add("hidden-btn");
+        btnTop.classList.remove("visible-btn");
+        btnBottom.classList.add("visible-btn");
+        btnBottom.classList.remove("hidden-btn");
     }
 });

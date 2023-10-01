@@ -2,7 +2,8 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: var(--primary-color) !important;
-    margin: 0rem;
+    margin: 0 !important;
+    padding: 0 !important;
     overflow-x: hidden !important;
     font-family: "Montserrat", sans-serif !important;
     user-select: none;
@@ -61,6 +62,9 @@ body {
 /* NAVBAR END */
 
 /* BANNER */
+#banner {
+    background-color: var(--primary-color);
+}
 #banner .row {
     max-width: 600px;
 }
@@ -80,11 +84,23 @@ body {
     letter-spacing: -0.5px;
     color: var(--tertiary-color);
 }
-#btnFixed {
-    position: fixed;
-    transform: translate(-13rem, -2.5rem);
-    z-index: 999;
+#btnTop {
     background-color: var(--secondary-color);
+}
+.hidden-btn {
+    opacity: 0 !important;
+    pointer-events: none;
+    cursor: default;
+}
+.visible-btn {
+    opacity: 1 !important;
+}
+#btnBottom {
+    background-color: var(--secondary-color);
+    position: fixed;
+    bottom: 2rem;
+    right: 2.2rem;
+    z-index: 999;
 }
 #banner a {
     font-size: 1.5rem;
@@ -149,6 +165,7 @@ body {
 
 /* BOOKING */
 #booking {
+    background-color: var(--primary-color);
     color: var(--quaternary-color);
 }
 #booking span {
@@ -191,6 +208,7 @@ body {
 
 /* CONTACT */
 #contact {
+    background-color: var(--primary-color);
     color: var(--quaternary-color);
 }
 iframe {
@@ -203,6 +221,7 @@ iframe {
     font-size: 2rem;
     font-weight: 300;
 }
+
 #contact .address {
     font-size: 1rem;
     font-weight: 400;
@@ -218,6 +237,9 @@ iframe {
 /* CONTACT END */
 
 /* PRODUCTS */
+#products {
+    background-color: var(--accent-color);
+}
 #products img {
     width: 79.98px;
     height: 79.98px;
@@ -226,7 +248,9 @@ iframe {
 /* PRODUCTS END */
 
 /* REVIEWS */
-
+#reviews {
+    background-color: var(--secondarybg-color);
+}
 .d-flex h2 {
     font-size: 1rem;
     font-weight: 300;

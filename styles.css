@@ -123,6 +123,7 @@ body {
         background-repeat: no-repeat;
         max-height: 500px;
         opacity: 0.4;
+        -webkit-filter: brightness(0.6);
     }
 }
 .parallax-section h4 {
@@ -185,12 +186,11 @@ body {
 }
 .zoom-img {
     transition: all 0.5s;
-    overflow: hidden !important;
 }
 .zoom-img:hover {
     transform: scale(1.1);
     opacity: 1 !important;
-    overflow: hidden !important;
+    -webkit-filter: brightness(1) !important;
 }
 /* BOOKING END */
 

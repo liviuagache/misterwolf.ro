@@ -1,3 +1,6 @@
+* {
+    overflow-x:inherit;
+}
 body {
     height: 100vh;
     width: 100vw;
@@ -97,8 +100,8 @@ body {
 }
 #btnBottom {
     background-color: var(--secondary-color);
-    bottom: 2rem;
-    right: 2.2rem;
+    bottom: 1.5rem;
+    right: 1.5rem;
     z-index: 999;
 }
 #banner a {
@@ -117,7 +120,7 @@ body {
         bottom: 0;
         left: 0;
         background-image: url(/images/Gallery/DSC08189.JPG);
-        background-size: cover !important;
+        background-size: cover;
         background-position: center;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -171,7 +174,12 @@ body {
     color: var(--quaternary-color);
     text-decoration: none;
     font-size: 1.75rem;
-    font-weight: 200;
+    font-weight: 300;
+}
+#language {
+    color: var(--quaternary-color) !important;
+    font-size: .7rem !important;
+    font-weight: 500 !important;
 }
 .zoom-container {
     overflow: hidden;
@@ -224,31 +232,23 @@ iframe {
 #contact .address {
     font-size: 1rem;
     font-weight: 400;
-    text-decoration: none;
     color: var(--tertiary-color);
 }
 #contact .phone {
-    text-decoration: none;
     color: var(--accent-color) !important;
     font-size: 1.5rem;
     font-weight: 500;
 }
 /* CONTACT END */
 
-/* PRODUCTS */
-#products {
-    background-color: var(--accent-color);
-}
-#products img {
-    width: 79.98px;
-    height: 79.98px;
-    background-color: #fff;
-}
-/* PRODUCTS END */
-
 /* REVIEWS */
 #reviews {
     background-color: var(--secondarybg-color);
+}
+#reviews .carousel-inner .d-flex{
+        position:relative;
+        top:50%;
+        transform: translateY(-50%);
 }
 .d-flex h2 {
     font-size: 1rem;
@@ -266,6 +266,17 @@ iframe {
     height: 240px;
 }
 /* REVIEWS END */
+
+/* PRODUCTS */
+#products {
+    background-color: var(--primary-color);
+}
+#products img {
+    width: 79.98px;
+    height: 79.98px;
+    background-color: #fff;
+}
+/* PRODUCTS END */
 
 /* SOCIAL */
 
@@ -285,6 +296,9 @@ iframe {
     }
     .fa {
         font-size: 5rem;
+    }
+    #contact .address {
+        font-size: .95rem;
     }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
